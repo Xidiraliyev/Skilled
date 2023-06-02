@@ -1,0 +1,40 @@
+.button {
+    border-radius: 31.5px;
+    color: $primary-white;
+    padding: 1.8rem 3.1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.header__button {
+    background: #13183f;
+
+    &:hover {
+        background: #666ca3;
+    }
+}
+
+.hero__button {
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    &:hover {
+        background: linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.5)
+            ),
+            linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    }
+}
+
+.footer__button {
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+
+    &:hover {
+        background: linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.5)
+            ),
+            linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    }
+}
