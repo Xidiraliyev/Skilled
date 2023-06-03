@@ -483,6 +483,7 @@ h3 {
     flex-direction: column;
     gap: 4.6rem;
     padding-top: 3.8rem;
+    padding-bottom: 0rem;
   }
   .hero__container .hero__info {
     width: 343px;
@@ -547,7 +548,7 @@ main {
   color: #f74780;
 }
 .cources__box-link:hover {
-  color: #FFA7C3;
+  color: #ffa7c3;
 }
 
 .cources__box:nth-child(3) p {
@@ -565,6 +566,9 @@ main {
 }
 
 @media (max-width: 485px) {
+  .cources__container {
+    padding-top: 0rem;
+  }
   .cources__first-box {
     padding: 2.4rem 2.8rem 3.2rem 2.8rem;
   }

@@ -41,7 +41,7 @@ main {
     }
 
     &-link:hover {
-        color: #FFA7C3;
+        color: #ffa7c3;
     }
 }
 
@@ -59,8 +59,10 @@ main {
 }
 
 @media (max-width: 485px) {
+    .cources__container {
+        padding-top: 0rem;
+    }
     .cources__first-box {
         padding: 2.4rem 2.8rem 3.2rem 2.8rem;
     }
 }
-
