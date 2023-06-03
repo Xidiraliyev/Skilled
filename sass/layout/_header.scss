@@ -33,12 +33,6 @@
     }
 }
 
-@media (max-width: 1220px) {
-    .header {
-        background-position: calc(100% - -110%) calc(100% - -30%);
-    }
-}
-
 @media (max-width: 485px) {
     .header {
         background: none;
@@ -47,7 +41,7 @@
     .hero__container {
         flex-direction: column;
         gap: 4.6rem;
-        padding-bottom: 6.6rem;
+        padding-top: 3.8rem;
         & .hero__info {
             width: 343px;
         }
